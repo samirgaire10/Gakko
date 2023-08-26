@@ -1,0 +1,101 @@
+﻿@charset "UTF-8"
+
+body{
+    margin : 0 ;
+    padding : 0 ;
+    font-size : 15px ;
+    line-height : 1.8 ;
+}
+
+.header{
+    text-align : center ;
+    padding : 1em 0 ;
+    margin-bottom : 2em ;
+    background : #ff9966 ;
+}
+
+.logo{
+    width : 800px ;
+    height : auto ;
+}
+
+
+.profile{
+    width :200px ;
+    mergin : 0 auto ;
+    display : block ;
+}
+
+.footer{
+    text-align : center ;
+    margin-top : 1em  0 ;
+    background : #ccff00 ;
+    clear : both ;
+}
+
+
+.wraper{
+    width : 1000px ;
+    margin : 0 auto;
+    padding : 0 ;
+}
+
+.main{
+    margin : 618px ;
+    padding : 20px ;
+    border : 1px solid rgba(0,0,0,.1) ;
+}
+
+.main h2 {
+    border-bottom : 3px dotted #888 ;
+}
+
+
+.side{
+    width : 320px ;
+    background : #ffffcc ;
+    float : right ;
+}
+
+
+.side h2{
+    background : ffffcc ;
+    color : white ;
+    text-align : center ;
+}
+
+@media screen and (max-width:479px){
+
+    body{
+        font-size : 13px ;
+    }
+
+    .logo{
+        width : 200px ;
+    }
+
+    .profile{
+        min-width: 200px ;
+        height : auto ;
+    }
+
+    .wrapper{
+        width : auto ;
+        padding : 0 10px ;
+    }
+
+    .main{
+        margin : auto ;
+        padding : 0 ;
+        border : none ;
+    }
+
+    .side{
+        width : auto ;
+    }
+
+    .main , .side{
+        float : none ;
+    }
+
+}

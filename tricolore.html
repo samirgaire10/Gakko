@@ -1,0 +1,62 @@
+﻿<html>
+	<head>
+	<title>表す中での表示位置 </title>
+	<style>
+	
+	h2
+	{
+	width : fit-content ; 
+	border-top : double 4px black ; 
+	border-bottom : double 4px black ;
+	}
+	
+	p
+	{
+	height : 150px  ;
+	width  : 200px ;   
+	border  : solid  1px  gray   ;
+	margin-top : 0   ;  
+	margin-left   : 50px   ;
+	}
+
+	.sample1
+	{
+	background : linear-gradient(90deg , #002395 30% , #ffffff 70%);
+	}
+	
+	
+	
+	.sample2
+	{
+	background : linear-gradient(90deg , #002395 50% , #ffffff 50%);
+	}
+	
+	.sample3
+	{
+	background : linear-gradient(90deg , #002395 , calc(100% /3) , #ffffff  calc(100%/3)  , #ffffff  calc(200%/3)  , #ed2939  calc(200%/3) ) ;
+	}
+	
+	</style>
+	
+	</head>
+	
+	<body>
+	
+	
+	<h2>
+	２つ以上の色経由点が同じ位置で場合、その位置で宣言された最初と最後の色の間で明確な線になります<br>これを利用することで、背景色を２つ以上の色で明確に区切って表示することができます<br>やっていることはP６４～６５のマーカー風のグラデーションに近いです
+	
+	<h2>
+	
+	<span>①色経由点が「青：３０％位置」「白：３０％位置」の場合</span>
+	<p class="sample1"> </p>
+	
+	<span>②色経由点が「青。白両方とも５０％の位置」の場合</span>
+	<p class="sample2"> </p>
+	
+	<span>③色経由点が「青。白。横幅の１/３位置」、「青。白。横幅の２/３位置」</span>
+	<p class="sample3"> </p>
+	
+		
+	</body>
+</html>

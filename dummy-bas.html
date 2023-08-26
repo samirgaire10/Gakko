@@ -1,0 +1,70 @@
+﻿<html>
+
+   <head>
+       <title>absoluteの確認</title>
+     <style>
+    
+    body
+    {
+    background-color : skyblue ;
+    }
+    
+    p
+    {
+    margin : 50px ;
+    border : solid 2px black ; 
+    width  : 500px ;
+    height : 50px  ;
+    line-height : 2.0  ;
+    font-size : 20pt ;
+    text-align  : center ;
+    background-color : beige  ; 
+    }
+    
+    p:before 
+    {
+    content : "★"  ;
+    color  :  red  ; 
+    }
+   
+     p::after
+    {
+    content : "★"  ;
+    color  :  blue  ; 
+    }
+    
+      .sample2::before
+    {
+    content : "★"  ;
+    color  :  green  ; 
+    }
+    
+    
+     .sample3::after
+    {
+    content : "★"  ;
+    color  : orange ;
+    }
+   
+    .sample4::before , .sample4::after
+    {
+    content : "★"  ;
+    color  :  purple  ; 
+    }
+   
+     </style>
+       
+   </head>
+   
+   <body>
+ 
+ 
+ <p class="sample1">←左の星は赤、右の星は青→</p>
+ <p class="sample2">←左の星は赤、右の星は青→</p>
+ <p class="sample3">←左の星は赤、右の星は橙→</p>
+ <p class="sample4">←左の星は赤、右の星は紫→</p>
+ 
+ 
+   </body>
+   
+</html>

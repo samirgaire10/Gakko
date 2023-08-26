@@ -1,0 +1,53 @@
+﻿<html>
+	<head>
+	<title> border/padding/marginの復習2</title>
+	<style>
+	
+	h2 , p 
+	{
+	margin : 30px ;
+	}
+	
+	span
+	{
+	border-left : solid 10px deepskyblue  ;
+	border-top  : dotted  3px deepskyblue   ;
+	border-bottom : dotted 3px  deepskyblue  ;
+	padding :10px ;
+	}
+	
+	p
+	{
+	height : 300px ;
+	width : 300px ;
+	background-color : lightblue ;
+	border : solid 1px gray
+	}
+	
+	.sample1
+	{
+	background : radial-gradient(circle at center , red 0% , yellow 10% , lightgreen 30% , transparent 40% )
+	}
+	
+
+	.sample2
+	{
+	background: radial-gradient(ellipse at top right, red 0% , yellow 10% , lightgreen 30% , transparent 40%),
+	            radial-gradient(ellipse at bottom right, red 0% , yellow 10% , lightgreen 30% , transparent 40%),
+	            radial-gradient(ellipse at bottom left, red 0% , yellow 10% , lightgreen 30% , transparent 40%),
+                    radial-gradient(ellipse at top left, red 0% , yellow 10% , lightgreen 30% , transparent 40%);
+	}
+	
+	
+	</style>
+	
+	</head>
+	
+	<body>
+	
+	<h2><span>背景色は書き方を工夫すれば複数重ねることもできます</span></h2>
+	<p class="sample1"></p>
+	<p class="sample2"></p>
+
+	</body>
+</html>

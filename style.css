@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+body
+{
+    background: skyblue;
+    color: black;
+    font-weight  : bold  ;
+}
+
+
+.title { background : linear-gradient(transparent 0% , pink 0% ) ; }
+.samirgaire { background : linear-gradient(transparent 0% , green 0% ) ; }
+
+.title , .samirgaire
+{
+    text-align : center ;
+    color : red ;
+    font-size: auto;
+    font-weight  : bold  ;
+
+}
+
+a
+{
+        text-decoration : none ;
+}
+
+     #nav  ul
+     {
+     list-style-type : none  ;
+     text-align : center  ;
+     }
+
+
+     #nav  ul li
+     {
+     display:inline-block ;
+     width :auto ;
+     height :auto ;
+     padding : 10px  20px  ;
+     margin  : 5px  0 ;
+     background : green  ;
+     font-weight  : bold  ;
+     color : pink  ;
+     border-radius :  25px 25px 25px 25px  ;
+     }
+
+
+
+.footer{
+    text-align : center ;
+    margin-top : 1em  0 ;
+    background : green ;
+    clear : both ;
+}
+
+
+
+@media screen and (max-width:541px)
+{
+     .smaller
+      {
+     font-size : 12px ;
+      }
+
+}
+
+/*
+@media screen and (max-width:286px)
+{
+     #nav  ul
+     {
+     list-style-type : none  ;
+     text-align : center  ;
+     font-size : 8px ;
+     width :auto ;
+     }
+
+      .smaller
+      {
+     font-size : 8px ;
+      }
+
+
+
+}
+*/
+

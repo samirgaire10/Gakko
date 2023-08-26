@@ -1,0 +1,56 @@
+﻿<html>
+
+   <head>
+       <title>absoluteの確認</title>
+
+     <link rel="stylesheet" type="text/css" href="./csstrial.css">
+
+     <style>
+     
+     .lightblue
+     {
+     width :720px ;
+     height  : 200px  ;
+     font-size :　18pt ;
+     color : navy  ;
+     background-color : lightblue  ;
+     }
+     
+    </style>
+
+   </head>
+   
+   <body>
+
+
+   <div>
+   外部スタイルシートが遖用されています<br>
+   背景色がライトグリーン、枠が正方形<br>
+   文字が色オレンジになっていればokです
+   </div>
+   
+   
+
+   <div class="lightblue">
+	ここも外部スタイルシートが遖用されています。ただし<br>
+	styleタグ内に記述した≪lightblue≫クラスにするスタイル<br>
+	先的の遖用されます<br>
+    背景色がライトブルー、枠が長の長方形、<br>
+　   文字が色ネイビー、文字サイズが大きくなってokです
+
+	
+   </div>
+   
+<div class="lightblue" style=" width :850px ; height: 130px ; font-size= 12pt; background-color: pink ; ">
+   外部スタイルシート、≪lightblue≫クラスにするスタイルの両方が<br>
+   遖用されていますが、divタグ内直接記述にしたstyle属性のプロパティが最優先で適用されます<br>
+記述しなかったプロパティは優先順位の高いものから適用されます(colorプロパティ)<br>
+背景色がピンク、枠の横幅は２個目のわくより長く、縦幅は２個目のわくより短く<br>
+文字が色ネイビーになっていればokです
+   </div>
+   
+   
+   
+   </body>
+   
+</html>

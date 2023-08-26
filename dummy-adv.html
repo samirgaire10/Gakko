@@ -1,0 +1,65 @@
+﻿<html>
+
+   <head>
+       <title>absoluteの確認</title>
+     <style>
+    
+    
+    div
+    {
+    margin : 0  auto ;
+    border : solid 2px black ; 
+    width  : 400px ;
+    height : 300px  ;
+    text-align  : center ;
+    background-color : lightcyan; 
+    }
+    
+    p
+    {
+    height : 50px ;
+    line-height : 2.0 ;
+    font-size : 20pt ;
+    background-color : mediumaquamarine ;
+    }
+    
+    ol
+    {
+    counter-reset  : item ;
+    list-style-type : none ;
+    padding : 0  1em ;
+    }
+    
+    
+    li
+    {
+    background-color : skyblue ;
+    margin-bottom : 10px  ;
+    text-align  :   left  ;
+    }
+    
+    li::before
+    {
+    counter-increment  :item ;
+    content  : '第'counter(item) '位：'
+    }
+   
+     </style>
+       
+   </head>
+   
+   <body>
+ 
+<div> 
+       <p class="sample1">世界の山の標高ランキング</p>
+ 	<ol>
+	<li>エベレスト　　８８４８ｍ</li>
+	<li>ゴドウィンオースチン　　８６１１ｍ</li>
+	<li>カンチェンジュンガ　　８５８６ｍ</li>
+	<li>ローツェ　　８５８６ｍ</li>
+	<li>マカルウ　　８４６３ｍ</li>
+	<ol>
+</div> 
+   </body>
+   
+</html>

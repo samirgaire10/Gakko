@@ -1,0 +1,56 @@
+﻿<html>
+
+   <head>
+       <title>absoluteの確認</title>
+     <style>
+   
+   
+    .parent
+    {
+    position  : relative ;
+    width : 300px ;
+    height : 200px ;
+    background-color : #99cc00 ;     
+    }
+    p
+    {
+    width : 130px ;
+    height : 50px ;
+    background-color : #cc3300 ;
+    color : #ffffff ;
+    } 
+    
+    .pos-ab1
+    {
+    position  : absolute ;
+    top : 25px ;
+    left  : 70px ;
+    background-color : #ff0033 ;
+    z-index : 2 ;
+    }
+    .pos-ab2
+    {
+    position  : absolute ;
+    top : 60px ;
+    left  :  10px ;
+    background-color : #ffcc00 ; ;
+    z-index : 1 ;
+    }  
+    
+     
+     </style>
+       
+   </head>
+   
+   <body>
+   
+   
+   <div class="parent">
+   <p>子要素1(absoluteなし)</p>
+   <p class="pos-ab1">子要素2(absoluteあり)</p>
+   <p class="pos-ab2">子要素3(absoluteあり)</p>
+   </div>
+   
+   </body>
+   
+</html>
