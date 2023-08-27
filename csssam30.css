@@ -22,7 +22,7 @@ body{
 
 .profile{
     width :200px ;
-    mergin : 0 auto ;
+    /* mergin : 0 auto ; */
     display : block ;
 }
 
